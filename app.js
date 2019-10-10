@@ -1,1 +1,5 @@
-console.log('hey ninjas');
+var events = require('events');
+
+var myEmitter = new events.EventEmitter();
+
+myEmitter
